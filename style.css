@@ -103,21 +103,70 @@ button{
 }
 
 
-
-
-
-/* WORK ON CONTENT 2 ane below */
 .content2{
-    background-color: blue;
-    height: 200px;
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+
+.wa{
+    min-width: 400px;
+    max-width: 780px;
+    font-size: 36px;
+    
+}
+
+
+.was{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 200px;
+    margin-left: -200px;
+
+}
+.but{
+    border-style:solid;
+    border-color: white;
+    border-width: 2px;
+    margin-top: -10px;
+    
 }
 .content3{
-    background-color: purple;
-    height: 200px;
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
+.po{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.pop{
+    color: white;
+    font-size: 14px;
+}
+.inner{
+    display: flex;
+    gap:128px;
+}
+.container{
+    border-radius: 8px;
+    background-color:#3882F6;
+    padding: 64px 300px;
 }
 .footer{
-    background-color: red;
-    height: 50px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
